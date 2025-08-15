@@ -38,7 +38,7 @@ gem "multi_json", "~> 1.15.0"
 gem "oj", "~> 3.10"
 
 # Database libraries
-gem "activerecord", "~> 7.1.1", :require => "active_record"
+gem "activerecord", "~> 7.1.5", ">= 7.1.5.2", :require => "active_record"
 gem "pg", "~> 1.5.3"
 gem "opensearch-ruby", "~> 3.4.0"
 gem "faraday-typhoeus", "~> 1.1.0"
